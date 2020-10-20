@@ -13,9 +13,11 @@ import ProductDetails from './pages/ProductDetails';
 import Follow from './pages/Follow'
 //components
 import Header from './components/Header';
+import Alert from "./components/Alert"
 export default function App() {
   return (
     <Router>
+    <Alert />
     <Header></Header>
       <Switch>
         <Route exact={true} path='/'>
